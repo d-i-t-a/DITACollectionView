@@ -1,0 +1,21 @@
+{
+  "name": "DITACollectionView",
+  "version": "0.1.0",
+  "summary": "DITACollectionView.",
+  "homepage": "https://github.com/d-i-t-a/DITACollectionView",
+  "license": {
+    "type": "DITA",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "git": "aferdita.muriqi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/d-i-t-a/DITACollectionView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DITACollectionView/Classes/**/*"
+}

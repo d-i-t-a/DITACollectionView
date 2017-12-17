@@ -1,0 +1,6 @@
+framework module DITACollectionView {
+  umbrella header "DITACollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}
