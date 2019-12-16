@@ -211,7 +211,7 @@ public class DITACollectionViewLayout: UICollectionViewLayout {
             }
 
             if heightHeader > 0 {
-                attributes = UICollectionViewLayoutAttributes(forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, with: IndexPath(row: 0, section: section))
+                attributes = UICollectionViewLayoutAttributes(forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, with: IndexPath(row: 0, section: section))
                 attributes.frame = CGRect(x: 0, y: top, width: self.collectionView!.bounds.size.width, height: heightHeader)
                 self.headersAttributes[section] = attributes
                 self.allItemAttributes.append(attributes)
