@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DITACollectionView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'DITACollectionView.'
 
 #  s.description      = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/d-i-t-a/DITACollectionView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/aferditamuriqi'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   #s.platform     = :ios, '9.0'
 

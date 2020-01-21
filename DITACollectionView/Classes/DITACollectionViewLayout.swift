@@ -53,7 +53,7 @@ public enum DITACollectionViewLayoutItemRenderDirection: Int {
 }
 
 public class DITACollectionViewLayout: UICollectionViewLayout {
-    public var columnCount: Int {
+    @objc public var columnCount: Int {
         didSet {
             invalidateLayout()
         }}
